@@ -34,21 +34,5 @@ but exposure should be monitored.
 ## Scan Screenshot
 ![Nmap Scan](scan%20report.jpeg)
 
-## Task 2 - OWASP ZAP Scan
 
-Tool Used: OWASP ZAP 2.17.0  
-Target: http://testphp.vulnweb.com
-
-### Vulnerabilities Found:
-- Cross Site Scripting (Reflected) - 19
-- SQL Injection
-- SQL Injection - MySQL (9)
-- Absence of Anti-CSRF Tokens
-- Content Security Policy Not Set
-- XSLT Injection (2)
-- Missing Anti-clickjacking Header
-
-### Risk Level: High
-
-[View Full ZAP Report](ZAP%20by%20Checkmarx%20Scanning%20Report.html)
 
