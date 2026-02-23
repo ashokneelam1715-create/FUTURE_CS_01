@@ -11,4 +11,4 @@ Prefromed vulnerability assessment on a live test website.
 classified risks and provided remediation steps.
 
 ## Scan Screenshot
-![Nmap Scan](WhatsApp Image 2026-02-23 at 5.13.27 PM.jpeg.png)
+![Nmap Scan](WhatsApp%20Image%202026-02-23%20at%205.13.27 PM.jpeg.png)
