@@ -9,3 +9,6 @@ Tools Used:
 Description:
 Prefromed vulnerability assessment on a live test website.
 classified risks and provided remediation steps.
+
+## Scan Screenshot
+![Nmap Scan] (screenshot-whatsApp image.png)
