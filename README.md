@@ -36,3 +36,66 @@ but exposure should be monitored.
 
 
 
+## Phase 2 – OWASP ZAP Scan
+
+### Tool Used
+OWASP ZAP 2.17.0 (Automated Scan)
+
+### Target
+http://testphp.vulnweb.com
+
+### Scan Method
+An automated scan was performed using OWASP ZAP.  
+The tool crawled the application and conducted active vulnerability testing.
+
+---
+
+## Vulnerabilities Identified
+
+- Cross Site Scripting (Reflected) – 19
+- SQL Injection
+- SQL Injection – MySQL (9)
+- Absence of Anti-CSRF Tokens
+- Content Security Policy Not Set
+- XSLT Injection (2)
+- Missing Anti-clickjacking Header
+
+---
+
+## Risk Level
+High
+
+---
+
+## Risk Explanation
+
+The presence of SQL Injection and Cross-Site Scripting vulnerabilities indicates critical security weaknesses.  
+Attackers may exploit these issues to steal sensitive data, manipulate application behavior, or compromise the backend database.
+
+---
+
+## Business Impact
+
+- Data Breach
+- Credential Theft
+- Financial Loss
+- System Compromise
+
+---
+
+## Recommendations
+
+- Implement input validation and output encoding
+- Use prepared statements to prevent SQL Injection
+- Enable CSRF protection tokens
+- Configure Content Security Policy (CSP)
+- Set proper security headers
+
+---
+
+## Evidence
+
+[View Full ZAP Report](ZAP_Report_Task1.html)
+
+
+
