@@ -95,7 +95,7 @@ Attackers may exploit these issues to steal sensitive data, manipulate applicati
 
 ## Evidence
 
-[View Full ZAP Report](ZAP_Report_file)
+[Download Full ZAP Report](ZAP_Report_file.pdf)
 
 
 
